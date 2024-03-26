@@ -4,15 +4,14 @@
 #include "Arduino.h"
 #include "defines.h"
 
-#define IR_STATES_NAMES {"Full Left", "Left", "Middle", "Right", "Full Right", "Unknown"}
-
 typedef enum Direction {
   FULL_LEFT,
   LEFT,
-  FORWARD,
+  MIDDLE_LEFT,
+  MIDDLE,
+  MIDDLE_RIGHT,
   RIGHT,
   FULL_RIGHT,
-  ERROR,
   UNKNOWN
 } Direction;
 
