@@ -4,7 +4,7 @@
 #include "Arduino.h"
 #include "defines.h"
 
-const char* IR_STATES_NAMES[] = {"Full Left", "Left", "Middle", "Right", "Full Right", "Unknown"};
+#define IR_STATES_NAMES {"Full Left", "Left", "Middle", "Right", "Full Right", "Unknown"}
 
 typedef enum Direction {
   FULL_LEFT,
